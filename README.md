@@ -13,7 +13,6 @@ The environment was built using **VMware Workstation** and **EVE-NG**, bridging 
 
 ### 📸 Network Topology
 ![Topology](Topology-Screenshots/Topology.png) 
-*(Note: Replace this with your actual image filename later)*
 
 ---
 
