@@ -12,7 +12,7 @@ The environment was built using **VMware Workstation** and **EVE-NG**, bridging 
 * **Scanner:** Nessus Expert (Self-Hosted)
 
 ### 📸 Network Topology
-![Topology](Topology-Screenshots/Screenshot_Topology.png) 
+![Topology](Topology-Screenshots/Topology.png) 
 *(Note: Replace this with your actual image filename later)*
 
 ---
