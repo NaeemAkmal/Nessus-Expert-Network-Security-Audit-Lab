@@ -37,12 +37,11 @@ The environment was built using **VMware Workstation** and **EVE-NG**, bridging 
 * **Audit Focus:** Web Application Scanning (WAS) for SQLi and XSS.
 * **Key Findings:** Critical injection points and broken access control.
 
-## 📊 Vulnerability Dashboard
-| Target Asset | OS/Platform | Critical | High | Main Security Gap |
-| :--- | :--- | :---: | :---: | :--- |
-| **AD-DNS Server** | Windows 2012 R2 | 165 | 394 | Outdated OS & Disabled Firewall |
-| **Cisco Router** | IOS-XE | 12 | 15 | Insecure Management (Telnet) |
-| **Web App** | Linux/Apache | 25 | 40 | Lack of Input Validation |
+Target Asset,OS/Platform,Critical,High,Main Security Gap
+AD-DNS Server (Baseline),Windows 2012 R2,12,25,Missing OS Patches (SMB/RDP)
+AD-DNS Server (Exposed),Windows 2012 R2,165,394,Firewall/Defender Disabled
+Cisco Router (CSR),IOS-XE,12,15,Insecure Management (Telnet/SNMP)
+Web App (Mutillidae),Linux/Apache,25,40,SQL Injection & XSS (WAS)
 
 ---
 
